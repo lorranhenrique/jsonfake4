@@ -5,11 +5,21 @@
           {"id": 2, "nome": "hospede2", "telefone": "22222222222", "email": "email2", "cpf": "22222222222", "estado": "estado2", "cidade":"cidade2", "cep": "22222-222", "bairro": "bairro2", "logradouro": "logradouro2", "numero": "2", "complemento": "bloco A 2006", "genero": "masc", "dataNasc": "10/03/2002"},
           {"id": 3, "nome": "hospede3", "telefone": "33333333333", "email": "email3", "cpf": "33333333333", "estado":"estado3", "cidade":"cidade3", "cep": "33333-333", "bairro": "bairro3", "logradouro": "logradouro3", "numero": "3", "complemento": "", "genero": "masc", "dataNasc": "07/07/2007"}
       ],
+  "tipoDeQuartos": [
+      {"id":1, "quantidadeTotal": 5, "Preço": 79.50, "quantidadeCamas": 12, "quantidadeAdultos": 2, "quantidadeCrianças": 1},
+      {"id":2, "quantidadeTotal": 3, "Preço": 19.50, "quantidadeCamas": 16, "quantidadeAdultos": 3, "quantidadeCrianças": 1},
+      {"id":3, "quantidadeTotal": 12, "Preço": 45.50, "quantidadeCamas": 1, "quantidadeAdultos": 2, "quantidadeCrianças": 2},
+    ],
   "hospedesNaReserva": [
           {"id": 1, "idHospede": 1, "idReserva": 1},
           {"id": 2, "idHospede": 2, "idReserva": 1},
           {"id": 3, "idHospede": 3, "idReserva": 1}
       ],
+  "tipoDeQuartosNaReserva": [
+      {"id":1, "idTipoDeQuarto":1,"idReserva":1 },
+      {"id":2, "idTipoDeQuarto":2,"idReserva":2 },
+      {"id":3, "idTipoDeQuarto":3,"idReserva":3 }
+    ],
   "reservas": [
           {"id": 1, "dataChegada": "12/01/2004", "dataSaida": "15/01/2004", "idHospede": 1},
           {"id": 2, "dataChegada": "10/04/1998", "dataSaida": "20/04/1998", "idHospede": 1},
