@@ -12,8 +12,8 @@
     ],
   "hospedesNaReserva": [
           {"id": 1, "idHospede": 1, "idReserva": 1},
-          {"id": 2, "idHospede": 2, "idReserva": 1},
-          {"id": 3, "idHospede": 3, "idReserva": 1}
+          {"id": 2, "idHospede": 2, "idReserva": 2},
+          {"id": 3, "idHospede": 3, "idReserva": 3}
       ],
   "tipoDeQuartosNaReserva": [
           {"id":1, "idTipoDeQuarto":1,"idReserva":1 },
